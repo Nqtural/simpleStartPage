@@ -9,32 +9,6 @@ body {
     background-color: #282a36;
 }
 
-.icon-big {
-    margin: 0 5px;
-}
-
-.search {
-    border-radius: 18px;
-    background-color: #44475a;
-    position: relative;
-    margin-top: 18%;
-    display: inline-flex;
-    border: 1px solid #6272a4;
-    padding-right: 2px;
-}
-
-input {
-    background-color: #44475a;
-    border-radius: 0 18px 18px 0;
-    border: none;
-    padding: 0.5%;
-    display: inline;
-}
-
-input:focus {
-    outline: 2px solid #bd93f9;
-}
-
 .icon {
     font-weight: 900;
 }
