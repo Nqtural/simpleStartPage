@@ -56,7 +56,7 @@ main {
     opacity: 1;
 }
 
-.hovereffect:hover + .links-container {
+.hovereffect:hover ~ .links-container {
     opacity: 0;
 }
 
