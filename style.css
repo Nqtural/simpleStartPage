@@ -34,13 +34,35 @@ main {
     float: right;
 }
 
+.clock-container {
+    opacity: 0;
+    transition: .6s;
+    position: absolute;
+    left: 10px;
+    width: 550px;
+    height: 211px;
+}
+
+#clock {
+    font-size: 64px;
+    font-family: "Roboto Mono";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hovereffect:hover ~ .clock-container {
+    opacity: 1;
+}
+
 .hovereffect:hover + .links-container {
-     opacity: 0;
+    opacity: 0;
 }
 
 .links-container {
     transition: .6s;
-    background-color: #282a36e6;
+    background-color: #282a36c0;
     border-radius: 8px;
     border: 2px solid #6272a4;
     width: 546px;
@@ -75,6 +97,10 @@ main {
 
 a:hover {
 	filter: drop-shadow(0 0 1px);
+}
+
+#clock {
+    filter: drop-shadow(0 0 3px);
 }
 
 .color1 a {
